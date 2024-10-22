@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculando o CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Programas Atividade 1 UESPI (Rangel)</h1>
+        <div class="program">
+            <h2>Somar Dois Números</h2>
+            <input type="number" id="num1" class="input" placeholder="Digite o primeiro número">
+            <input type="number" id="num2" class="input" placeholder="Digite o segundo número">
+            <button class="button" onclick="somarNumeros()">Somar</button>
+            <p class="result" id="result-somar"></p>
+        </div>
+        <div class="program">
+            <h2>Calcular Média de Quatro Números</h2>
+            <input type="number" id="num3" class="input" placeholder="Digite o primeiro número">
+            <input type="number" id="num4" class="input" placeholder="Digite o segundo número">
+            <input type="number" id="num5" class="input" placeholder="Digite o terceiro número">
+            <input type="number" id="num6" class="input" placeholder="Digite o quarto número">
+            <button class="button" onclick="calcularMedia()">Calcular</button>
+            <p class="result" id="result-media"></p>
+        </div>
+        <div class="program">
+            <h2>Calcular Resto da Divisão</h2>
+            <input type="number" id="num7" class="input" placeholder="Digite o dividendo">
+            <input type="number" id="num8" class="input" placeholder="Digite o divisor">
+            <button class="button" onclick="calcularResto()">Calcular</button>
+            <p class="result" id="result-resto"></p>
+        </div>
+        <div class="program">
+            <h2>Calcular Aumento de Salário 50%</h2>
+            <input type="number" id="salario" class="input" placeholder="Digite o salário atual">
+            <button class="button" onclick="calcularAumentoSalario()">Calcular Aumento</button>
+            <p class="result" id="result-aumento"></p>
+        </div>
+        <div class="program">
+            <h2>Calcular Área do Triângulo</h2>
+            <input type="number" id="base" class="input" placeholder="Digite a base">
+            <input type="number" id="altura" class="input" placeholder="Digite a altura">
+            <button class="button" onclick="calcularAreaTriangulo()">Calcular Área</button>
+            <p class="result" id="result-triangulo"></p>
+        </div>
+    </div>
+    <script src="script.js"></script> <!-- Vinculando o JavaScript -->
+</body>
+</html>
