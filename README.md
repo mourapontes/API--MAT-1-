@@ -7,6 +7,7 @@ No âmbito do curso de Tecnólogo em Sistemas para Internet da UESPI, estou dese
 
 O aplicativo contará com cinco funcionalidades principais
 Com esse projeto, além de reforçar conceitos de lógica e algoritmos, espero entregar uma solução prática e intuitiva, incentivando o uso de tecnologia na educação. O desenvolvimento inclui fases de prototipagem, programação e testes, e será uma importante aplicação prática do que venho aprendendo no curso.
+Link da página do aplicativo: https://mourapontes.github.io/RMP/
 
 
 
